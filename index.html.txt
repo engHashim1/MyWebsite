@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hashim Hassan Althumali - Personal Website</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 600px;
+        }
+
+        h1 {
+            color: #007bff;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .section-title {
+            margin-top: 20px;
+            font-weight: bold;
+            color: #444;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hashim Hassan Althumali</h1>
+        <p><strong>Electrical Engineering Student</strong></p>
+        <p>Studying at <strong>Taif University</strong></p>
+
+        <p class="section-title">Interests:</p>
+        <p>Electronics, Embedded Systems, Microcontrollers, IoT Projects, and Hands-on Engineering</p>
+
+        <p class="section-title">GitHub:</p>
+        <p><a href="https://github.com/engHashim1" target="_blank">github.com/engHashim1</a></p>
+    </div>
+</body>
+</html>
